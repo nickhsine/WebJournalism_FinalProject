@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+
+
+
+	<!-- Import External CSS -->
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+
+<body>
+	<!-- 主頁面（第一層） -->
+
+	<!-- 主頁面大標題 -->
+	<h1>動物小百科 Animal Wikipedia</h1>
+
+	<!-- 主頁面下方的門, 點擊後開啟, 要做動畫 -->
+	<div id="door"> </div>
+
+	<script>
+		// 調整影片大小？？？
+		function playVideo(){
+			var videoUrl = './Videos/ZooGate.mp4'; 
+			var video = document.createElement('video');
+			video.src = videoUrl; 
+			video.width = 1481;
+			video.height = 822.5; 
+			video.autoplay = true; 
+
+			// load to next page
+			video.onended = function(){
+				var door = document.getElementById('door'); 
+				door.style.opacity = 0; 
+				setTimeout(function(){
+					window.location.href = 'WorldmapPage.html'; 
+				}, 50);
+			}; 
+
+			var door = document.getElementById('door'); 
+			door.innerHTML = ''; 
+			// connect gate-image and gate-opening video
+			door.appendChild(video); 
+		}
+
+		var door = document.getElementById('door'); 
+		door.addEventListener('click', playVideo); 
+
+		
+
+	</script>
+
+</body>
+</html>
+
+
+
+
+<!-- pc version, using @media? -->
+
+<!-- mobile version, using @media? -->
+
+
+
+
+<!-- 地圖頁面（第二層） -->
+
+<!-- 地圖頁面標題（選擇一個喜愛的動物等等） -->
+
+<!-- 跳轉過程的頁面, 搭配可愛小動畫 -->
+
+<!-- 動物介紹頁面 -->
+
+<!-- 大標題：動物中英名字 -->
+
+<!-- 照片（用 carousel 方式） -->
+
+<!-- 有聲書（有聲網頁 播放音檔？） -->
+
+<!-- 小類別標題 -->
+
+<!-- 段落內文 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

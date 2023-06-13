@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<!-- Import Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+
+	<!-- Import Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- Import External CSS -->
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+
+<body style="background-color: #E9967A;">
+
+	<!-- 名字 -->
+	<h1 style="padding-top: 20px;">螃蟹 Crab</h1>
+
+	<!-- 返回地圖頁 -->
+	<div class="back_to_Worldmap_btn"> 
+		<img src="./Images/Worldmap06.png" alt="Back to Worldmap">
+	</div>
+
+
+	<!-- 照片 -->
+	<div class="info_image">
+		<div id="carouselExampleFade" class="carousel slide carousel-fade">
+
+
+		<!-- Carousel Indicator -->
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+
+		<div class="carousel-inner">
+			<!-- 第一張 -->
+			<div class="carousel-item active">
+				<img class="carousel_img" src="./Animals/Crab/Crab02.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>螃蟹</h5>
+				</div>
+			</div>
+
+			<!-- 第二張 -->
+			<div class="carousel-item">
+				<img class="carousel_img" src="./Animals/Crab/Crab03.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>螃蟹</h5>
+				</div>
+			</div>
+
+			<!-- 第三張 -->
+			<div class="carousel-item">
+				<img class="carousel_img" src="./Animals/Crab/Crab04.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>螃蟹</h5>
+				</div>
+    		</div>
+    	</div>
+
+    	<!-- Carousel Controller -->
+  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Previous</span>
+  		</button>
+
+  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Next</span>
+  		</button>
+  	</div>
+	</div>
+
+	<!-- 介紹按鈕 -->
+	<div class="character_btn" style="top: 350px; left: 1140px;">
+		<img src="./Assets/Coral/Coral05.png" alt="Polar Bear" style="transform: rotate(45deg);"> 
+		<!-- 性格 -->
+		<div class="popup"> 
+
+		</div>
+	</div>
+
+	<div class="food_btn" style="top: 120px; left: 330px;">
+		<img src="./Animals/Crab/Crab01.png" alt="Polar Bear"> 
+		<!-- <p> 吃什麼？ </p>  -->
+		<div class="popup"> </div>
+		<div class="popup"> 
+
+		</div>
+	</div>
+
+	<div class="feature_btn" style="top: 100px; left: 980px;">
+		<img src="./Animals/Crab/Crab01.png" alt="Polar Bear"> 
+		<!-- <p> 外觀＆特徵 </p>  -->
+		<div class="popup"> 
+
+
+		</div>
+	</div>
+
+	<div class="distribution_btn" style="top: 380px; left: 200px;">
+		<img src="./Assets/Coral/Coral05.png" alt="Polar Bear" style="transform: rotate(-45deg);"> 
+		<!-- <p> 分佈 </p>  -->
+		<div class="popup"> 
+		
+
+		</div>
+	</div>
+
+	<div class="lifeStyle_btn" style="left: 840px; top: 570px;"> 
+		<img src="./Assets/Coral/Coral07.png" alt="Polar Bear" style="width: 400px"> 
+		<!-- <p> 生活型態 </p>  -->
+		<div class="popup"> 
+
+
+		</div>
+	</div>
+
+	<div class="lifeSpan_btn" style="top: 580px; left: 300px;">
+		<img src="./Assets/Coral/Coral07.png" alt="Polar Bear" style="width: 400px;"> 
+		<!-- <p> 壽命 </p>  -->
+		<div class="popup"> 
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+			crossorigin="anonymous">
+	</script>
+	<script>
+		document.querySelector(".back_to_Worldmap_btn").addEventListener("click", function() {
+		window.location.href = "WorldmapPage.html"; // 導航到地圖頁面的 URL
+		});
+	</script>
+</body>
+</html>
+
+
+<!-- https://anettemossbacher.com/photograph/ghost-crab-beach/ -->
+<!-- https://www.crushpixel.com/stock-photo/crab-on-beach-706820.html -->
+
+

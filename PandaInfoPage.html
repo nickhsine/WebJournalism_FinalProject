@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<!-- Import Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+
+	<!-- Import Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- Import External CSS -->
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body style="background-color: #1c1c19;">
+	<!-- 名字 -->
+	<h1 style="padding-top: 20px;"> 熊貓 Panda </h1>
+
+	<!-- 返回地圖頁 -->
+	<div class="back_to_Worldmap_btn"> 
+		<img src="./Images/Worldmap06.png" alt="Back to Worldmap">
+	</div>
+
+	<!-- 照片 -->
+	<div class="info_image">
+		<div id="carouselExampleFade" class="carousel slide carousel-fade">
+
+
+		<!-- Carousel Indicator -->
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+
+		<div class="carousel-inner">
+			<!-- 第一張 -->
+			<div class="carousel-item active">
+				<img class="carousel_img" src="./Images/Panda01.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>熊貓</h5>
+				</div>
+			</div>
+
+			<!-- 第二張 -->
+			<div class="carousel-item">
+				<img class="carousel_img" src="./Images/Panda02.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>熊貓</h5>
+				</div>
+			</div>
+
+			<!-- 第三張 -->
+			<div class="carousel-item">
+				<img class="carousel_img" src="./Images/Panda03.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>熊貓</h5>
+				</div>
+    		</div>
+    	</div>
+
+    	<!-- Carousel Controller -->
+  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Previous</span>
+  		</button>
+
+  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Next</span>
+  		</button>
+  	</div>
+	</div>
+
+	<!-- 介紹按鈕 -->
+	<div class="character_btn" style="top: 350px; left: 1100px;">
+		<img src="./Assets/Bamboo/Bamboo01.png" alt="Polar Bear"> 
+		<!-- 性格 -->
+		<div class="popup"> 
+		性格：<br>
+		熊貓性格孤僻，喜歡單獨行動獨自生活，有很 <br>
+		強的領地意識。如果發現有入侵者進入了自己 <br>
+		的領地，它會主動出擊，變得具有攻擊性。動 <br>
+		物園中的大熊貓由於長期的圈養生活讓它們逐 <br>
+		漸失去了這些天性。即使在動物園中也曾經發 <br>
+		生過大熊貓攻擊人類的事情。
+
+		</div>
+	</div>
+
+	<div class="food_btn" style="top: 60px; left: 330px;">
+		<img src="./Assets/Bamboo/Bamboo05.png" alt="Polar Bear" style="transform: rotate(-30deg); width: 150px;"> 
+		<!-- <p> 吃什麼？ </p>  -->
+		<div class="popup"> </div>
+		<div class="popup"> 
+		食物：<br>
+		大熊貓 99% 的食物都是竹子，可供大熊貓食 <br>
+		用的竹類植物共有12屬、60多種。 此外，野 <br>
+		生大熊貓還偶食一些動物屍體或其它植物。圈 <br>
+		養大熊貓主要以某一種或幾種低山平壩竹爲主 <br>
+		食，輔食是以谷物類爲主所調制的精飼料。竹 <br>
+		類是大熊貓生長發育、身體健康和正常繁育的 <br>
+		關鍵所在。
+		</div>
+	</div>
+
+	<div class="feature_btn" style="top: 100px; left: 1000px;">
+		<img src="./Animals/Panda/Panda01.png" alt="Polar Bear"> 
+		<!-- <p> 外觀＆特徵 </p>  -->
+		<div class="popup">
+		外表特徵&外觀：<br>
+		屬於食肉目熊科的一種哺乳動物，體色為黑白 <br>
+		兩色。貓熊是中國特有物種，現存的主要棲息 <br>
+		地是中國中西部四川盆地周邊的山區和陝西南 <br>
+		部的秦嶺地區。大貓熊黑白相間的毛色和憨態 <br>
+		可掬的外表使其深受人們喜愛，在全世界亦有 <br>
+		大量粉絲。在1961年世界自然基金會成立時就 <br>
+		以大貓熊為標誌，大貓熊儼然已成為了瀕危物 <br>
+		種保護最重要的象徵。
+		</div>
+	</div>
+
+	<div class="distribution_btn" style="top: 350px; left: 180px;">
+		<img src="./Assets/Bamboo/Bamboo02.png" alt="Polar Bear" style="transform: rotate(-5deg);"> 
+		<!-- <p> 分佈 </p>  -->
+		<div class="popup"> 
+		分佈＆數量：<br>
+		大熊貓曾廣泛分佈於中國長江、黃河和珠江三 <br>
+		大流域，包括從北京附近周口店至兩廣以及附 <br>
+		近的東南亞地區。而現在我們只能在秦嶺山系 <br>
+		、岷山山系、邛崍山系、涼山和大、小相嶺山 <br>
+		系找到它們。
+		</div>
+	</div>
+
+	<div class="lifeStyle_btn" style="left: 870px; top: 620px;"> 
+		<img src="./Assets/Bamboo/Bamboo04.png" alt="Polar Bear" style="width: 300px"> 
+		<!-- <p> 生活型態 </p>  -->
+		<div class="popup"> 
+		生活型態＆習性：<br>
+		熊貓主要棲息在中國的高山竹林中，包括四川 <br>
+		、甘肅和遼寧等地。它們適應寒冷、潮濕和多 <br>
+		雨的氣候，通常生活在海拔2000至3500米的 <br>
+		地區。熊貓通常是獨居的動物，每隻熊貓都擁 <br>
+		有自己的領域，領域的大小因環境資源的可用 <br>
+		性而有所不同。熊貓會使用味道和聲音來標記 <br>
+		領域界限。熊貓以竹子為主要食物來源，約有 <br>
+		99％的飲食來自竹子。它們以竹子的嫩葉、嫩 <br>
+		芽和竹節為食。熊貓具有特殊的消化系統，可 <br>
+		以處理竹子中難以消化的纖維。熊貓通常著地 <br>
+		食用竹子，而不是爬樹。它們具有特別的拇指 <br>
+		和腕關節，可以抓住竹子並將其握在手中，然 <br>
+		後使用牙齒剝去竹子的皮和葉子。熊貓是典型 <br>
+		的日行性動物，通常在清晨和傍晚活動。它們 <br>
+		花費大部分時間尋找食物，並花費大約10至16 <br>
+		個小時進食。雖然熊貓較少爬樹，但它們會在 <br>
+		樹上尋找遮蔽處休息。它們通常選擇竹子較密 <br>
+		集的樹冠或竹叢中的樹枝作為休息場所。雖然 <br>
+		熊貓主要是獨居的，但在繁殖季節和幼仔成長 <br>
+		期間，它們會與同類進行一些社交互動。
+		</div>
+	</div>
+
+	<div class="lifeSpan_btn" style="top: 670px; left: 400px;">
+		<img src="./Assets/Bamboo/Bamboo04.png" alt="Polar Bear" style="width: 200px;"> 
+		<!-- <p> 壽命 </p>  -->
+		<div class="popup"> 
+		壽命：
+		大貓熊的平均壽命為 20 年。
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+			crossorigin="anonymous">
+	</script>
+	<script>
+		document.querySelector(".back_to_Worldmap_btn").addEventListener("click", function() {
+		window.location.href = "WorldmapPage.html"; // 導航到地圖頁面的 URL
+		});
+	</script>
+</body>
+</html>
+
+
+
+

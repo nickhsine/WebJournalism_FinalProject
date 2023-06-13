@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<!-- Import Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+
+	<!-- Import Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- Import External CSS -->
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+
+<body style="background-color: #008080;">
+
+	<!-- 名字 -->
+	<h1 style="padding-top: 20px;">變色龍 Chameleon</h1>
+
+	<!-- 返回地圖頁 -->
+	<div class="back_to_Worldmap_btn"> 
+		<img src="./Images/Worldmap06.png" alt="Back to Worldmap">
+	</div>
+
+
+	<!-- 照片 -->
+	<div class="info_image">
+		<div id="carouselExampleFade" class="carousel slide carousel-fade">
+
+
+		<!-- Carousel Indicator -->
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+
+		<div class="carousel-inner">
+			<!-- 第一張 -->
+			<div class="carousel-item active">
+				<img class="carousel_img" src="./Animals/Chameleon/Chameleon02.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>變色龍</h5>
+				</div>
+			</div>
+
+			<!-- 第二張 -->
+			<div class="carousel-item">
+				<img class="carousel_img" src="./Animals/Chameleon/Chameleon03.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>變色龍</h5>
+				</div>
+			</div>
+
+			<!-- 第三張 -->
+			<div class="carousel-item">
+				<img class="carousel_img" src="./Animals/Chameleon/Chameleon04.jpg" class="d-block w-100" alt="Polar Bear">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>變色龍</h5>
+				</div>
+    		</div>
+    	</div>
+
+    	<!-- Carousel Controller -->
+  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Previous</span>
+  		</button>
+
+  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Next</span>
+  		</button>
+  	</div>
+	</div>
+
+	<!-- 介紹按鈕 -->
+	<div class="character_btn" style="top: 450px; left: 1000px;">
+		<img src="./Animals/Chameleon/Chameleon01.png" alt="Polar Bear"> 
+		<!-- 性格 -->
+		<div class="popup"> 
+		性格：<br>
+		變色龍的性格可以被描述為相對冷靜和謹慎。 <br>
+		它們通常是獨居的生物，喜歡獨自行動並保持 <br>
+		警覺。變色龍在面對威脅或危險時會表現出謹 <br>
+		慎的態度，傾向於躲避和逃離。它們是頗為沉 <br>
+		默的生物，通常不會主動攻擊，而是以伏擊和 <br>
+		隱蔽為主要防禦策略。此外，變色龍也擁有良 <br>
+		好的適應能力，能夠根據環境的變化做出適當 <br>
+		的反應，包括顏色的變化和行動的調整。
+
+		</div>
+	</div>
+
+	<div class="food_btn" style="top: 35px; left: 330px;">
+		<img src="./Animals/Chameleon/Chameleon01.png" alt="Polar Bear"> 
+		<!-- <p> 吃什麼？ </p>  -->
+		<div class="popup"> </div>
+		<div class="popup"> 
+		食物：<br>
+		變色龍的食物主要包括昆蟲、節肢動物和其他 <br>
+		小型無脊椎動物。它們以捕食獵物為生，通常 <br>
+		會利用其快速伸展的舌頭捕捉飛行中的昆蟲。 <br>
+		變色龍的食性具有多樣性，可以根據環境和可 <br>
+		用的食物來做出適應性的調整。一些大型變色 <br>
+		龍甚至會捕食小型脊椎動物，如小鳥或蜥蜴。 <br>
+		此外，變色龍也需要攝取水分，通常會透過吸 <br>
+		水或攝取含水量高的植物來滿足水分需求。
+
+		</div>
+	</div>
+
+	<div class="feature_btn" style="top: 35px; left: 970px;">
+		<img src="./Animals/Chameleon/Chameleon01.png" alt="Polar Bear" style="transform: scaleX(-1);"> 
+		<!-- <p> 外觀＆特徵 </p>  -->
+		<div class="popup"> 
+		外表特徵＆外觀：<br>
+		變色龍是一種獨特而迷人的爬行動物，擁有令 <br>
+		人驚嘆的外表特徵和外觀。它們身體修長，有 <br>
+		許多突起和凸起的鱗片，讓它們在樹林和灌木 <br>
+		叢中具有出色的隱蔽能力。變色龍的頭部相對 <br>
+		大型，眼睛能夠獨立移動，提供了廣闊的視野 <br>
+		範圍。它們的四肢也非常靈活，有著特殊的趾 <br>
+		爪結構，能夠輕易地抓住樹枝和攀爬。最引人 <br>
+		注目的是，變色龍的身體能夠改變顏色，以適 <br>
+		應周圍環境和傳達情緒。它們可以快速改變顏 <br>
+		色和花紋，從綠色、褐色到黃色和橙色等多種 <br>
+		色彩。這種變色的能力使得變色龍成為了極其 <br>
+		獨特且美麗的生物。
+		</div>
+	</div>
+
+	<div class="distribution_btn" style="top: 380px; left: 250px;">
+		<img src="./Animals/Chameleon/Chameleon01.png" alt="Polar Bear"> 
+		<!-- <p> 分佈 </p>  -->
+		<div class="popup"> 
+		分佈＆數量：<br>
+		變色龍廣泛分布於世界各地的熱帶和亞熱帶地 <br>
+		區，包括非洲、亞洲、中東和馬達加斯加等地 <br>
+		。它們在這些地區的森林、草原、沙漠和山區 <br>
+		等不同棲息地中都有所存在。然而，關於變色 <br>
+		龍的精確數量是很難確定的，因為它們常常具 <br>
+		有出色的隱蔽能力，使其在野外很難被觀察和 <br>
+		統計。
+
+		</div>
+	</div>
+
+	<div class="lifeStyle_btn" style="left: 970px; top: 600px;"> 
+		<img src="./Animals/Chameleon/Chameleon01.png" alt="Polar Bear" style="transform: rotate(180deg);"> 
+		<!-- <p> 生活型態 </p>  -->
+		<div class="popup"> 
+		生活型態＆習性：<br>
+		變色龍是一類具有獨特生活型態和習性的爬行 <br>
+		動物。它們擁有出色的變色能力，可以根據周 <br>
+		圍環境的色彩和溫度變化而改變身體的顏色。 <br>
+		這種變色功能有助於它們在獵食、求偶和威嚇 <br>
+		敵人時更好地適應環境。此外，變色龍具有獨 <br>
+		特的會議視覺，可以獨立移動和聚焦的眼睛， <br>
+		使其能夠盯住獵物或潛在的威脅。它們也擁有 <br>
+		捕食性的舌頭，可以迅速伸出捕捉昆蟲等小型 <br>
+		獵物。變色龍通常是單獨生活的，並且以昆蟲 <br>
+		和其他小型無脊椎動物為食。它們在森林、灌 <br>
+		木叢和草地等各種棲息地中生活，並依賴於隱 <br>
+		蔽的姿態和迅速的運動來逃避捕食者。
+
+		</div>
+	</div>
+
+	<div class="lifeSpan_btn" style="top: 600px; left: 330px;">
+		<img src="./Animals/Chameleon/Chameleon01.png" alt="Polar Bear" style="transform: scaleY(-1);"> 
+		<!-- <p> 壽命 </p>  -->
+		<div class="popup"> 
+		壽命：<br>
+		變色龍的壽命約為2到10年。
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+			crossorigin="anonymous">
+	</script>
+	<script>
+		document.querySelector(".back_to_Worldmap_btn").addEventListener("click", function() {
+		window.location.href = "WorldmapPage.html"; // 導航到地圖頁面的 URL
+		});
+	</script>
+</body>
+</html>
